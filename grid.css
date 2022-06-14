@@ -1,0 +1,39 @@
+*{
+  margin:0;
+  padding:0;
+}
+body{
+  background-color:black;
+
+}
+
+main div{
+  padding:2em;
+  text-align:center;
+}
+.item-a{
+  /* grid-column: a / span 2;
+  grid-row: a; */
+  background-color:brown;
+  grid-area: a;
+}
+.item-b{
+  background-color:rgb(245, 245, 51);
+  grid-area: b;
+}
+.item-c{
+  background-color:green;
+  grid-area: c;
+}
+.item-d{
+  background-color:lightblue;
+  grid-area: d;
+}
+.item-e{
+  background-color:darkblue;
+  grid-area: e;
+}
+.item1 {
+  grid-column: a / span 2;
+  grid-row: a;
+}

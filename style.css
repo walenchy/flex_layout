@@ -1,0 +1,30 @@
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 19%;
+  padding: 10px;
+  height: 400px; /* Should be removed. Only for demonstration */
+  
+  
+}
+.column,h1,p{
+  text-align: center;
+  display: white;
+}
+h1,p{
+  color:white;
+}
+
+
+
+
+
+
+
+
+
